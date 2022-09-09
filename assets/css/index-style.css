@@ -30,6 +30,7 @@ font-size: 1rem;
     display: flex;
     justify-content: space-around;
     background-color: white;
+    box-shadow: 5px 5px 5px lightgrey;
 }
 header {
     background-image:url(../images/banner.jpg);

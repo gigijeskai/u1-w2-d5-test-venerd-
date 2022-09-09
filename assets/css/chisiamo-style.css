@@ -16,6 +16,7 @@ html,body {
   #container {
     width: 100%;
     height: 100%;
+    margin: 0 auto;
 font-size: 1rem;
     line-height: 1.8em;
     font-family: 'Fira Sans', sans-serif;
@@ -27,7 +28,60 @@ font-size: 1rem;
     display: flex;
     justify-content: space-around;
     background-color: white;
+    margin-bottom: 2em;
 }
 /* main */
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+#section-testo {
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 9em;
+    margin-bottom: 2em;
+}
+img {
+    width: 50%;
+}
+#section-immagini {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2em;
+}
+#immagine-sinistra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#immagine-destra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tabella {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+thead {
+    background-color: blue;
+}
+tbody:nth-child(odd) {
+    background-color: lightblue;
+}
+
 
 /* footer */
+footer {
+    background-color: lightgrey;
+    display: flex;
+}
