@@ -17,7 +17,7 @@ html,body {
      margin-bottom: 1em;
   }
   h3 {
-    font-size: 2em;
+    font-size: 1.8em;
     margin-bottom: 1rem;
   }
   h4 {
@@ -153,7 +153,7 @@ footer {
     justify-content: space-around;
   }
   #vabene-button {
-    width: 330px;
+    width: 335px;
     height: 35px;
   }
   footer input {
