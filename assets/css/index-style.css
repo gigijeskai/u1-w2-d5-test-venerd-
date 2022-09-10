@@ -174,8 +174,11 @@ footer {
   height: 35px;
 }
 footer input {
-  width: 335px;
+ width: 335px;
   height: 35px;
 }
 
 /* RESPONSIVE */
+
+
+/* layout completato, iniziare media query */
