@@ -44,6 +44,13 @@ button {
     text-align: center;
     align-items: center;
 }
+ion-icon {
+  font-size: 2em;
+  color: rgb(238 42 36);
+}
+.emoji {
+  font-size: 1em;
+}
 /* header */
 #nav-bar {
     width: 100%;
