@@ -17,10 +17,12 @@
     <div id="container">
       <div id="nav-bar">
         <div id="logo"><img src="./assets/images/logo.png" alt="logo-epicode" /></div>
-        <div class="nav-button"><a href="./index.html">Home</a></div>
-        <div class="nav-button"><a href="./chi-siamo.html">Chi siamo</a></div>
-        <div class="nav-button"><a href="./contatti.html">Contatti</a></div>
-        <div class="nav-button"><button>Registrati</button></div>
+        <div id="bottoni-navbar">
+          <div><a href="./index.html">Home</a></div>
+          <div><a href="./chi-siamo.html">Chi siamo</a></div>
+          <div><a href="./contatti.html">Contatti</a></div>
+          <button>Registrati</button>
+        </div>
       </div>
       <main>
         <section id="section-testo">
@@ -76,19 +78,28 @@
         </section>
       </main>
       <footer>
-        <section>
-          <h4>Chi siamo</h4>
-          <p>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
-        </section>
-        <section>
-          <h4>Ti piace ciò che vedi?</h4>
-          <p>Condividilo con i tuoi amici!</p>
-        </section>
-        <section>
-          <h4>Iscriviti alla nostra newsletter</h4>
-          <p>Va bene</p>
-        </section>
-        <p>&copy; 2021 Epicode Web Developer school - Via appia 1, 00100 Roma (RM) -Tel. 06-12345678</p>
+        <div id="section-footer">
+          <section>
+            <h4>Chi siamo</h4>
+            <p>
+              Epicode School nasce con l'obiettivo di<br />
+              rivoluzionare la formazione in ambito tech.
+            </p>
+          </section>
+          <section>
+            <h4>Ti piace ciò che vedi?</h4>
+            <p>Condividilo con i tuoi amici!</p>
+          </section>
+          <section>
+            <h4>Iscriviti alla nostra newsletter</h4>
+            <label for="email"></label>
+            <input type="email" id="email" />
+            <button id="vabene-button">Va bene</button>
+          </section>
+        </div>
+        <div id="copiright">
+          <p>&copy; 2021 Epicode Web Developer school - Via appia 1, 00100 Roma (RM) -Tel. 06-12345678</p>
+        </div>
       </footer>
     </div>
   </body>
