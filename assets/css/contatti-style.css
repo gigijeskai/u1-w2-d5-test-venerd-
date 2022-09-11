@@ -100,7 +100,40 @@ textarea {
 /* FOOTER */
 footer {
   background-color: rgb(238 238 238);
+  display: flex;
+  flex-direction: column;
   height: 380px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#section-footer {
+  display: flex;
+    column-gap: 5em;
+    align-items: flex-start;
+    text-align: center;
+}
+#section-footer section {
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+}
+#copiright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+#vabene-button {
+  width: 343px;
+  height: 35px;
+}
+footer input {
+ width: 335px;
+  height: 35px;
 }
 
 /* RESPONSIVE */
@@ -131,7 +164,15 @@ footer {
   footer {
     padding-inline: 7em;
   }
- 
+  #section-footer input {
+    width: 170px;
+    height: 35px;
+    text-align: inherit;
+}
+  #section-footer button {
+    width: 178px;
+    height: 35px;
+} 
 }
 @media screen  and (max-width:720px){
 html,
@@ -154,7 +195,7 @@ font-size: 10px;
 section:first-of-type {
   margin-bottom: 3em;
 }
-}
+
 button {
   font-size: 2em;
 }
@@ -173,5 +214,6 @@ row-gap: 2em;
 display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
 }
 
