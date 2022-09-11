@@ -307,7 +307,19 @@ button {
   font-size: 2em;
 }
 }
+ 
+/* ANIMAZIONE */
+.animazione:hover {
+  box-shadow: 1px 0px 50px 15px #d3d3d3;
+  animation-name: box-shadow;
+  animation-duration: 1s;
+  transition-duration: 1;
 
-
-
-/* layout completato, iniziare media query */
+}
+@keyframes box-shadow {
+  from {box-shadow: 1px 0px 50px 15px #d3d3d3;}
+  25% {box-shadow: 1px 0px 25px 15px #d3d3d3;}
+50% {box-shadow: 1px 0px 25px 15px #d3d3d3;}
+75% {box-shadow: 1px 0px 25px 15px #d3d3d3;}
+to {box-shadow: 1px 0px 50px 15px #d3d3d3;}
+}
