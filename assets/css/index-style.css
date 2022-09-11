@@ -196,10 +196,38 @@ footer input {
   h1 {
     font-size: 3em;
   }
-  
+  #prima-section {
+justify-content: center;
+height: 330px;
+margin-bottom: 1em;
+width: 73%;
+  }
+  #section-blu {
+    height: 250px;
+  }
+  #seconda-section {
+    column-gap: 2em;
+    height: 330px;
+  }
+  #seconda-section img {
+    width: 250px;
+    height: auto;
+  }
+  footer {
+    padding-inline: 7em;
+  }
+  #section-footer input {
+    width: 170px;
+    height: 35px;
+    text-align: inherit;
+}
+  #section-footer button {
+    width: 178px;
+    height: 35px;
+}
 
 }
-@media screen and (min-width:380px) and (max-width:720px){
+@media screen and (min-width:500px) and (max-width:720px){
   html,
   body,
   #container {
@@ -209,6 +237,7 @@ footer input {
   padding: 0;
   overflow-x: hidden;
   }
+
 }
 
 
