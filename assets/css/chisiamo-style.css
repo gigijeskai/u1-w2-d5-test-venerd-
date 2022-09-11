@@ -5,6 +5,9 @@ a:link {
    a:visited {
     color: black;
   }
+  ul {
+    list-style: none;
+  }
 html,body {
     height: 100%;
   }
@@ -52,7 +55,19 @@ ion-icon {
   font-size: 1em;
 }
 /* header */
-#nav-bar {
+#container-drop {
+  top: 10px;
+  right: 20px;
+  display: none;
+}
+#drop-content {
+  z-index: 1;
+  display: none;
+}
+#drop-button {
+  font-size: 4em;
+}
+ #nav-bar {
     width: 100%;
     height: 80px;
     display: flex;
@@ -60,13 +75,32 @@ ion-icon {
     background-color: white;
     box-shadow: 5px 5px 5px rgb(211 211 211);
     align-items: center;
-    margin-bottom: 2em;
 }
 #bottoni-navbar {
     display: flex;
     align-items: center;
     flex-direction: row;
     column-gap: 1em;
+    position: relative;
+}
+ul {display: inline-flex;
+  align-items: center;
+  column-gap: 2em;}
+ 
+header {
+    background-image: url(../images/banner.jpg);
+    color: white;
+    display: flex;
+    height: 380px;
+    background-position: center;
+    background-size: auto;
+    flex-direction: column;
+    margin-bottom: 2em;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    row-gap: 1em;
 }
 /* main */
 main {
@@ -219,6 +253,16 @@ footer {
     overflow-x: hidden;
     font-size: 10px;
     }
+    ul {
+      display: none;
+    }
+    #container-drop{
+      display: block;
+    }
+       #drop-content {
+  display: flex;
+  flex-direction: column;
+       }
     #nav-bar {
       margin-bottom: 4em;
     }

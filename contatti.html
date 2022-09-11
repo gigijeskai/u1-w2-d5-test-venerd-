@@ -12,18 +12,30 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/contatti-style.css" />
   </head>
-
   <body>
     <div id="container">
       <div id="nav-bar">
         <div id="logo"><img src="./assets/images/logo.png" alt="logo-epicode" /></div>
         <div id="bottoni-navbar">
-          <div><a href="./index.html">Home</a></div>
-          <div><a href="./chi-siamo.html">Chi siamo</a></div>
-          <div><a href="./contatti.html">Contatti</a></div>
-          <button>Registrati</button>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./chi-siamo.html">Chi siamo</a></li>
+            <li><a href="./contatti.html">Contatti</a></li>
+            <li><button>Registrati</button></li>
+          </ul>
+          <div id="container-drop">
+            <!-- devo attivare un menu a tendina quando l'icona viene premuta -->
+            <ion-icon id="drop-button" name="menu-outline"></ion-icon>
+            <div id="drop-content">
+              <a href="./index.html">Home</a>
+              <a href="./chi-siamo.html">Chi siamo</a>
+              <a href="./contatti.html">Contatti</a>
+              <button>Registrati</button>
+            </div>
+          </div>
         </div>
       </div>
+
       <main>
         <h2>Contatti</h2>
         <div id="main-container">
