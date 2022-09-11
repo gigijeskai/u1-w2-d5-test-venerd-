@@ -190,6 +190,12 @@ footer input {
   overflow-x: hidden;
   font-size: 12px;
   }
+  #nav-bar {
+    justify-content: space-between;
+  }
+  #nav-bar div {
+    padding-inline: 1em;
+  }
   header {
     background-size: cover;
   }
