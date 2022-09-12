@@ -147,6 +147,7 @@ footer {
     column-gap: 5em;
     align-items: flex-start;
     text-align: center;
+    margin-inline: 7em;
 }
 #section-footer section {
   display: flex;

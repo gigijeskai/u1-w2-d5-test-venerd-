@@ -76,6 +76,7 @@ ion-icon {
     background-color: white;
     box-shadow: 5px 5px 5px rgb(211 211 211);
     align-items: center;
+    margin-bottom: 2em;
 }
 #bottoni-navbar {
     display: flex;
@@ -155,6 +156,7 @@ main {
 }
 caption {
   font-size: large;
+  font-weight: bold;
 }
 tr:nth-child(odd) {
   background-color: rgb(210,220,221);
@@ -175,9 +177,10 @@ footer {
   }
   #section-footer {
     display: flex;
-      column-gap: 5em;
-      align-items: flex-start;
-      text-align: center;
+    column-gap: 5em;
+    align-items: flex-start;
+    text-align: center;
+    margin-inline: 7em;
   }
   #section-footer section {
     display: flex;
