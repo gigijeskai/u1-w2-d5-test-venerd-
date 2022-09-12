@@ -59,9 +59,10 @@ ion-icon {
 
 /* HEADER */
 #container-drop {
-  top: 10px;
-  right: 20px;
+  position: absolute;
   display: none;
+  top: -23px;
+  right: -56px;
 }
 #drop-content {
   z-index: 1;
@@ -259,16 +260,16 @@ width: 73%;
   overflow-x: hidden;
   font-size: 10px;
   }
-  ul {
+  #bottoni-navbar ul {
     display: none;
   }
-  #container-drop{
+ #container-drop{
     display: block;
   }
-     #drop-content {
+     #drop-content:hover {
 display: flex;
 flex-direction: column;
-     }
+     } 
 header {
   background-size: cover;
   align-items: flex-start;

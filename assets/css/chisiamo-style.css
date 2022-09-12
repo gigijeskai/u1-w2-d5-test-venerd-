@@ -56,9 +56,10 @@ ion-icon {
 }
 /* header */
 #container-drop {
-  top: 10px;
-  right: 20px;
+  position: absolute;
   display: none;
+  top: -23px;
+  right: -56px;
 }
 #drop-content {
   z-index: 1;
