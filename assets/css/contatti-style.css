@@ -2,6 +2,7 @@
 /* IMPOSTAZIONI GENERALI */
 a:link {
   text-decoration: none;
+  color: black;
 }
  a:visited {
   color: black;
@@ -92,21 +93,7 @@ ul {display: inline-flex;
   align-items: center;
   column-gap: 2em;}
  
-header {
-    background-image: url(../images/banner.jpg);
-    color: white;
-    display: flex;
-    height: 380px;
-    background-position: center;
-    background-size: auto;
-    flex-direction: column;
-    margin-bottom: 2em;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    row-gap: 1em;
-}
+
 /* MAIN  */
 #main-container {
 display: flex;
@@ -211,27 +198,28 @@ footer input {
     height: 35px;
 } 
 }
-@media screen  and (max-width:720px){
+@media screen  and  (min-width:500px) and (max-width:720px){
 html,
 body,
-#container {
-  width: 100%;
-height: 100%;
-margin: 0;
-padding: 0;
-overflow-x: hidden;
-font-size: 10px;
-}
-#bottoni-navbar ul {
-  display: none;
-}
-#container-drop{
-  display: block;
-}
-   #drop-content {
+ #container {
+    width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 10px;
+  }
+  #bottoni-navbar ul {
+    display: none;
+  }
+ #container-drop{
+    display: block;
+  }
+  
+     #drop-content:hover {
 display: flex;
 flex-direction: column;
-   }
+     } 
 #nav-bar {
   margin-bottom: 4em;
 }
@@ -239,10 +227,12 @@ flex-direction: column;
   flex-direction: column;
   align-items: center;
 }
+#main-container section:last-of-type{
+  line-height: 2.5em;
+}
 section:first-of-type {
   margin-bottom: 3em;
 }
-
 button {
   font-size: 2em;
 }

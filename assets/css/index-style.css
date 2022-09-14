@@ -249,7 +249,7 @@ width: 73%;
 }
 
 }
-@media screen and (max-width:721px){
+@media screen  and  (min-width:500px) and (max-width:720px){
   html,
   body,
   #container {
@@ -266,6 +266,7 @@ width: 73%;
  #container-drop{
     display: block;
   }
+  
      #drop-content:hover {
 display: flex;
 flex-direction: column;
